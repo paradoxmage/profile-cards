@@ -1,0 +1,84 @@
+@font-face {
+    font-family: "script";
+    src: url(./StyleScript-Regular.ttf);
+}
+
+@font-face {
+    font-family: "noto";
+    src: url(./NotoSans-Regular.ttf);
+}
+
+body {
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    background-color: #9884C7;
+    display: grid;
+    grid-template-columns: repeat(4, 140px);
+    grid-template-rows: repeat(2, 200px);
+    grid-gap: 20px;
+}
+
+section {
+    background-color: white;
+}
+
+footer {
+    padding-left: 18px;
+}
+.card .character img {
+    border-radius: 50%;
+    width: 60px;
+    position: absolute;
+    top: 20px;
+    left: 40px;
+}
+
+.card .plus img{
+    position: absolute;
+    width: 20px;
+    bottom: calc(100% - 10px);
+    left: calc(100% - 10px);
+}
+
+.card .details h2 {
+    font-family: "script";
+    padding-top: 12px;
+    text-align: center;
+    color: darkgrey;
+    font-size: 20px;
+}
+
+.card .details h4 {
+    font-family: "noto";
+    font-size: small;
+    text-align: center;
+    font-size: 8px;
+    color: darkgrey;
+}
+
+
+.card footer img {
+    width: 100px;
+    border-radius: 10px;
+}
+
+
+ .card {
+    height: 200px;
+    width: 140px;
+    position: relative;
+    margin-right: 20px;
+}
+
+.character {
+    height: 50px;
+    width: 140px;
+}
+
+
+
+
+
+
+
